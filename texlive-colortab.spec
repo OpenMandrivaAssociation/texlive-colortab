@@ -1,3 +1,9 @@
+# revision 22155
+# category Package
+# catalog-ctan /macros/generic/colortab
+# catalog-date 2010-09-08 11:26:01 +0200
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-colortab
 Version:	1.0
 Release:	1
@@ -46,6 +52,7 @@ colortab remains an adequate solution for use with Plain TeX.
 %doc %{_texmfdistdir}/doc/generic/colortab/Makefile
 %doc %{_texmfdistdir}/doc/generic/colortab/colortab-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/colortab/colortab-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ colortab remains an adequate solution for use with Plain TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

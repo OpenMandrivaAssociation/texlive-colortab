@@ -5,8 +5,8 @@ Summary:	Shade cells of tables and halign
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/colortab
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.r22155.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.doc.r22155.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

@@ -1,6 +1,6 @@
 Name:		texlive-colortab
 Version:	22155
-Release:	1
+Release:	2
 Summary:	Shade cells of tables and halign
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/colortab

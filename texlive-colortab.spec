@@ -3,7 +3,7 @@ Version:	22155
 Release:	2
 Summary:	Shade cells of tables and halign
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/colortab
+URL:		https://www.ctan.org/tex-archive/macros/generic/colortab
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colortab.doc.r%{version}.tar.xz
